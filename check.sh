@@ -10,6 +10,7 @@ echo "Running unit tests..."
 python -m unittest -v test_decrypt
 test_status=$?
 
+
 if [ "$pylint_status" -eq 0 ] && [ "$test_status" -eq 0 ]; then
     echo "OK"
 else
