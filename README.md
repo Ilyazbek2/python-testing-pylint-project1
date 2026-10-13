@@ -1,5 +1,3 @@
-
-
 # Python Testing and Code Quality
 
 A Python project demonstrating unit testing, static code analysis,
